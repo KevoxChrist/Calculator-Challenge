@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUM Calculator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="Images/Sum. Calculator_logo.svg" alt="Sum logo">
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="calculator-container">
+          <div class="container-input">
+            <input type="text" name="text-input" id="text-input" readonly/>
+          </div>
+
+          <section class="section-calculator">
+            <div> <!--1st row-->
+              <button id="backspace-btn">⌫</button>
+              <button class="number-btn">7</button>
+              <button class="number-btn">4</button>
+              <button class="number-btn">1</button>
+              <button onclick = "clear_display()" id="clear-btn">AC</button>
+            </div>
+
+            <div> <!--2nd row-->
+              <button id="paren-btn">()</button>
+              <button class="number-btn">8</button>
+              <button class="number-btn">5</button>
+              <button class="number-btn">2</button>
+              <button class="number-btn">0</button>
+            </div>
+
+            <div> <!--3rd row-->
+              <button class="operator-btn">%</button>
+              <button class="number-btn">9</button>
+              <button class="number-btn">6</button>
+              <button class="number-btn">3</button>
+              <button class="number-btn">.</button>
+            </div>
+
+            <div> <!--4th row-->
+              <button class="operator-btn">/</button>
+              <button class="operator-btn">*</button>
+              <button class="operator-btn">-</button>
+              <button class="operator-btn">+</button>
+              <button class="operator-btn">=</button>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="index.js"></script> <!--JavaScript import-->
+   
+  </body>
+</html>
