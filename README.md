@@ -1,5 +1,5 @@
 Week 7 - JavaScript Calculator
-Description
+Description:
 This is a basic calculator built for Week 7 of the JavaScript challenge. It lets users do simple math operations using buttons for numbers and symbols.
 
 Features
@@ -13,5 +13,5 @@ Use = to get the result
 
 Handles decimals and parentheses
 
-How It Works
+How It Works:
 The calculator updates the screen when you click buttons. When you press =, it calculates the result. You can also clear or delete input as needed.
